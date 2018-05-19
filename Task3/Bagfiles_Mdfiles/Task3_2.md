@@ -1,0 +1,2 @@
+The Real Time Factor (RTF) defines the relationship between the simulation time, in this case in Gazebo, and the real time of the clock. In other words, the RTF defines how much time of the clock (real time) elapses with each step of the simulation time.
+The RTF is desired to be in 1.0 in such a way that a second in simulation corresponds to one second of the time of the clock, with which it is possible to expect a behavior of the robot and algorithms in execution times as close as possible to the real execution time.
